@@ -1,0 +1,28 @@
+{
+  // prettierをセーブ時に起動するようにする。
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // 色をSMTAMカラーにして開発をわかりやすくする。
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#009DB1A8",
+    "titleBar.activeForeground": "#009DB1A8",
+    "activityBar.background": "#009DB1A8",
+    "activityBar.foreground": "#009DB1A8",
+    "activityBarBadge.background": "#009DB1A8"
+  }
+  "editor.minimap.enabled": false, // ミニマップを非表示にする
+  "editor.renderControlCharacters": true, // 制御文字を表示する
+  "editor.suggestSelection": "first", // サジェスト一覧の初期表示項目設定
+  "breadcrumbs.enabled": true, // ファイルのパンくずリストを表示する
+  "files.insertFinalNewline": true, // ファイルの末尾を改行で終わらせる
+  "editor.fontFamily": "'Fira Code', Hasklig, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true, // 合字を有効化
+  "editor.fontSize": 15, // フォントサイズを変更
+  "editor.renderLineHighlight": "all", // 選択行の行番号をハイライトする
+  "editor.cursorBlinking": "smooth", // カーソルが滑らかに点滅するように
+  "editor.cursorSmoothCaretAnimation": true, // カーソルの点滅をアニメーション表示する
+  "files.autoGuessEncoding": true, // ファイルの自動エンコードを実施
+  "window.zoomLevel": 0, // 画面全体の表示サイズはデフォルト
+  "editor.bracketPairColorization.enabled": true // 括弧の対応を色付ける
+}
